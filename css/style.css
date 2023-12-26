@@ -404,8 +404,10 @@ section {
 }
 
 .home .slide .content {
-  width: 50rem;
+  width: 100rem;
   position: relative;
+  left: 65px;
+  text-align: center;
 }
 
 .home .slide .content h3 {
@@ -902,6 +904,10 @@ section {
   section {
     padding: 3rem 2rem;
   }
+  .home .slide .content{
+  left: 0px;
+  text-align: center;
+  }
 }
 
 @media (max-width: 991px) {
@@ -911,6 +917,11 @@ section {
   .header .flex #menu-btn {
     display: inline-block;
   }
+  .home .slide .content{
+    left: 0px;
+    text-align: center;
+    }
+
   .header .flex .navbar {
     position: absolute;
     top: 99%;
@@ -941,6 +952,7 @@ section {
   .header .flex .login-form {
     width: 90%;
   }
+
   .home .slide {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -948,6 +960,8 @@ section {
   }
   .home .slide .content {
     text-align: center;
+    position: relative;
+    left: 0px;
   }
   .home .slide .content h3 {
     font-size: 3rem;
@@ -961,5 +975,9 @@ section {
   .about .row .content h3 {
     font-size: 2.5rem;
   }
+  .home .slide .content{
+    left: 0px;
+    text-align: center;
+    }
 }
 /*# sourceMappingURL=style.css.map */
